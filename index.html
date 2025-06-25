@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>СМС Сервис</title>
+  <link rel="stylesheet" href="styles/style.css">
+  <script type="module" src="js/service.js" defer></script>
+</head>
+<body>
+  <div id="screen-phone" class="screen">
+    <h1>ОТправка SMS</h1>
+    <input id="input-phone" type="tel" placeholder="+7XXXXXXXXXX" />
+    <button id="btn-send">Отправить код</button>
+  </div>
+
+  <div id="screen-code" class="screen" style="display: none;">
+    <h1>Введите код</h1>
+    <input id="input-code" type="text" placeholder="Код из SMS" />
+    <button id="btn-verify">Подтвердить</button>
+  </div>
+</body>
+</html>

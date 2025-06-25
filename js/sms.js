@@ -1,0 +1,8 @@
+
+export function generateCode() {
+  return Math.floor(100000 + Math.random() * 900000).toString();
+}
+
+export function checkCode(inputCode, actualCode) {
+  return inputCode === actualCode;
+}
